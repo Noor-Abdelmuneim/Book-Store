@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  background-color: rgb(255, 255, 255);
+  height: 60px;
+}
+
+.nav-container a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.nav-container a:hover {
+  background-color: #7e7e7e;
+}
+
+.hero {
+  height: 60vh;
+  background-image: url("https://i.pinimg.com/originals/b6/db/c1/b6dbc1286429b2e9c6f6472b78d54b60.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  background-color: rgb(255, 255, 255);
+  width: 26%;
+  color: rgb(0, 0, 0);
+}
+.paragraph {
+  background-color: rgb(255, 255, 255);
+  width: 60%;
+  color: rgb(0, 0, 0);
+}
+
+.paragraph-input {
+  background-color: black;
+  width: 15%;
+  color: white;
+}
+
+.card-container {
+  display: inline-block;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 90%;
+  margin: 40px;
+  border-radius: 30px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.container {
+  padding: 2px 16px;
+}
